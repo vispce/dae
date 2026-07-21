@@ -1,4 +1,4 @@
-<h1 align="center">Install dae server for linux</h1>
+<h1 align="center" style="color:#BFDEFF">Install dae server for linux</h1>
 
 > [!TIP]
 >
