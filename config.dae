@@ -157,7 +157,7 @@ global {
 
 # Nodes defined here will be merged as a part of the global node pool.
 node {
-	usa: 'vless://c6d5f3c6-6fbf-462c-b250-0361f4604143@47.83.119.243:1314?type=tcp&encryption=none&security=none#%F0%9F%87%AD%F0%9F%87%B03m'
+	usa: 'vless://'
     # Support socks5, http, https, ss, ssr, vmess, vless, trojan, tuic, juicity, hysteria2, etc.
     # Full support list: https://github.com/daeuniverse/dae/blob/main/docs/en/proxy-protocols.md
 }
@@ -176,7 +176,7 @@ dns {
     #}
 
     # Bind to local address to listen for DNS queries
-      bind: '0.0.0.0:5353'
+    #  bind: '0.0.0.0:5353'
     # bind: 'tcp://127.0.0.1:5353'
     # bind: 'udp://127.0.0.1:5353'
     # bind: 'tcp+udp://127.0.0.1:5353'
