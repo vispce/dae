@@ -20,7 +20,7 @@ sudo mkdir -p /etc/dae
 
 sudo ./config.dae /etc/dae/ && sudo cp ./dae /usr/bin/ && sudo cp dae.service /etc/systemd/system/ && sudo cp geo* /etc/dae/
 
-sudo sed -i "s|vless://|your self url |g" /etc/dae/config.dae  ## maybe you can vim +160 /etc/dae/config.dae
+sudo sed -i "s|vless://|your self url |g" /etc/dae/config.dae  ## maybe you can manually edit vim +160 /etc/dae/config.dae
 
 sudo systemctl enable --now dae && sudo systemctl status dae
 ```
