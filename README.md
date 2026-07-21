@@ -12,4 +12,9 @@
 >>```
 ---
 > [!IMPORTANT]
-
+---
+> [!NOTE]
+---
+> [!WARNING]
+---
+> [!CAUTION]
