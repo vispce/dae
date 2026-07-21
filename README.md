@@ -33,6 +33,5 @@ sudo curl -fsSL https://github.com/vispce/dae/install.sh | sh
 ---
 
 > [!NOTE]
-> 111
-- This document is for reference only
-- [origin dae repository](https://github.com/daeuniverse/dae)
+> - This document is for reference only
+> - [origin dae repository](https://github.com/daeuniverse/dae)
