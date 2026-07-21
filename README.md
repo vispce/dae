@@ -28,7 +28,7 @@ sudo systemctl enable --now dae && sudo systemctl status dae
 
 ## Install by shell
 ```bash
-sudo curl -fsSL https://github.com/vispce/dae/install.sh | sh
+sudo chmod +x ./dae/install.sh && sudo ./dae/install.sh
 ```
 ---
 
