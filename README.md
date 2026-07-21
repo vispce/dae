@@ -28,7 +28,7 @@ sudo systemctl enable --now dae && sudo systemctl status dae
 ```
 
 
-## Install by shell
+## Install by shell script
 ```bash
 git clone https://github.com/vispce/dae.git
 
