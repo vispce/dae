@@ -5,7 +5,7 @@
 > - make sure your liunx used systemd manager
 >
 > - have a vless or vmless url
->> just like :
+>> just like the expample :
 >> ```bash
 >>vless://xxx
 >>vmless://xxx
