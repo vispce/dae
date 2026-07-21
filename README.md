@@ -16,6 +16,8 @@
 ```bash
 git clone https://github.com/vispce/dae.git
 
+cd ./dae
+
 sudo mkdir -p /etc/dae
 
 sudo ./config.dae /etc/dae/ && sudo cp ./dae /usr/bin/ && sudo cp dae.service /etc/systemd/system/ && sudo cp geo* /etc/dae/
