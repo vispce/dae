@@ -8,7 +8,7 @@
 >> just like the expample :
 >> ```bash
 >>vless://xxx
->>vmless://xxx
+>>vmess://xxx
 >>```
 ---
 
@@ -20,7 +20,7 @@ cd ./dae
 
 sudo mkdir -p /etc/dae
 
-sudo ./config.dae /etc/dae/ && sudo cp ./dae /usr/bin/ && sudo cp dae.service /etc/systemd/system/ && sudo cp geo* /etc/dae/
+sudo ./config.dae /etc/dae/ && sudo cp ./dae-linux-x86_64_v3_avx2 /usr/bin/dae && sudo cp dae.service /etc/systemd/system/ && sudo cp geo* /etc/dae/
 
 sudo sed -i "s|vless://|your self url |g" /etc/dae/config.dae  ## maybe you can manually edit vim +160 /etc/dae/config.dae
 
