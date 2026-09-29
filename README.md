@@ -14,7 +14,7 @@
 
 ## Install
 ```bash
-git clone https://github.com/vispce/dae.git
+git clone https://github.com/vispce/dae.git or gh repo clone vispce/dae
 
 cd ./dae
 
